@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jalandhar Airport</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <img src="images/flight-icon.png" alt="Airport Logo" height="50">
+                    <span class="fs-4 ms-2">Jalandhar Airport</span>
+                </a>
+
+                <ul class="nav nav-pills">
+                
+                    <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>&nbsp;&nbsp;
+                    <li class="nav-item"><a href="gallery.html" class="nav-link text-black">Gallery</a></li>
+                    <li class="nav-item"><a href="hotels.html" class="nav-link text-black">Hotels</a></li>
+                    <li class="nav-item"><a href="transportation.html" class="nav-link text-black">Transportation</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link text-black">Contact</a></li>
+                </ul>
+            </header>
+        </div>
+    </section>
+
+    <section class="heroes">
+        <div class="container my-5">
+            <div class="row p-4 pb-0 pe-lg-0 py-lg-4 align-items-center rounded-3 border shadow-lg">
+              <div class="col-lg-5 p-3 p-lg-5 pt-lg-5">
+                <h1 class="display-5 fw-bold lh-2 text-body-emphasis pb-4"> Welcome to Jalandhar Airport</h1>
+                <p class="lead pb-2">A happy journey begins with an exceptional airport experience! Check out our remarkable services & facilities.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" onClick="document.querySelector('.info').scrollIntoView();">Know More</button>
+                    <a href="contact.html">
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4 col-12">Contact</button>
+                    </a>
+                </div>
+              </div>
+              <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                  <img class="rounded-lg-3 rounded" src="images/hero-img.png" alt="" width="1000">
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- <div class="container"> -->
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-theme="light"  data-interval="500">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <!-- Carousel Image 1 -->
+                <div class="carousel-item">
+                    <img src="images/carousel-1.webp" height="100%" width="100%" alt=" Carousel Image 1">
+                </div>
+
+                <!-- Carousel Image 2 -->
+                <div class="carousel-item active">
+                    <img src="images/carousel-2.jpg" height="100%" width="100%" alt="Carousel Image 2">
+                </div>
+
+                <!-- Carousel Image 3 -->
+                <div class="carousel-item">
+                    <img src="images/carousel-3.jpeg" height="100%" width="100%" alt="Carousel Image 3">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    <section class="info">
+        <div class="container">
+            <div class="row featurette align-items-center justify-content-between my-5 ">
+                <div class="col-md-5 order-md-2 pe-2 px-4">
+                  <h2 class="featurette-heading fw-normal lh-2 display-6">About <span class="text-body-secondary">The Airport</span></h2>
+                  <p class="lead pt-4 me-3 just">Adampur Airport is a domestic airport and an Indian Air Force base serving the cities of Jalandhar and Hoshiarpur in Punjab, India. It is located 6.7 km from Adampur town in Jalandhar district, 28 km from Jalandhar and 27 km from Hoshiarpur. It just beside NH-3. As it lies just between the cities of Jalandhar and Hoshiarpur, it serves both the cities.</p>
+                </div>
+                <div class="col-md-6 order-md-1 my-5">
+                  <img src="images/about-pic.jpg" class="rounded-5 col-12" alt="Airplane Image">
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="ri-arrow-up-line fs-5"></i></button>
+
+    <section class="footer">
+        <div class="container">
+            <footer class="py-3 mt-4">
+                <h5 class="text-light text-center mt-4 py-1 fs-4">Follow us on</h5>
+              <ul class="nav justify-content-center border-bottom pb-4 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-white"><img src="images/icons8-facebook.svg" alt="Facebook Icon" height="50"></a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-white"><img src="images/icons8-twitter.svg" alt="Twitter Icon" height="50"></a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-white"><img src="images/icons8-linked-in.svg" alt="LinkedIn Icon" height="50"></a></li>
+              </ul>
+              <p class="text-center text-white mt-1">&copy; Jalandhar Airport</p>
+            </footer>
+          </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
